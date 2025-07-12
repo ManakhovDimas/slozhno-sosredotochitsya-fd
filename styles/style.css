@@ -93,6 +93,7 @@
 }
 
 .header__theme-menu-button {
+  
   background-color: transparent; 
   border: none;
   color: var(--accent-color); 
