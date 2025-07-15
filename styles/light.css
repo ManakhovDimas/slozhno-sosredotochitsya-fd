@@ -29,12 +29,9 @@
   }
 }
 
-
   .theme-light .page {
     /* Вам также нужно будет написать ряд подобных селекторов */
   }
-
-
 
   :root.theme-light {
     /* сохраните этот селектор в приведённом виде.
@@ -55,10 +52,6 @@
     --header-desc-color: var(--desc-color);
     --td-color: var(--desc-color);
     --title-color-decor: var(--desc-color);
-  }
-
-  .theme-light .page {
-    /* Вам также нужно будет написать ряд подобных селекторов */
   }
 
   .theme-light .rec-label {
