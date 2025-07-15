@@ -11,100 +11,62 @@
     --desc-color: #353430;
     --button-hover: #32312d66;
     --main-title-color: #ffc2e6;
+    --button-color: var(--desc-color);
+    --button-color-active: var(--desc-color);
+    --button-color-focus: var(--desc-color);
+    --decorated-color: var(--desc-color);
+    --header-desc-color: var(--desc-color);
+    --td-color: var(--desc-color);
+    --title-color-decor: var(--desc-color);
   }
 
-  .rec-label {
+   .rec-label {
     display: none;
   }
 
   .rec-label::after {
     display: none;
   }
-
-  .decorated-zone::before {
-    border-left: 1px solid var(--desc-color);
-    border-bottom: 1px solid var(--desc-color);
-  }
-
-  .decorated-zone::after {
-    border-right: 1px solid var(--desc-color);
-    border-top: 1px solid var(--desc-color);
-  }
-
-  .title-decor {
-    background-color: var(--accent-color);
-    color: var(--desc-color);
-  }
-
-  .title-color-decor {
-    color: var(--desc-color);
-  }
-
-  .header__theme-menu-button {
-    color: var(--desc-color);
-  }
-
-  .header__theme-menu-button_active {
-    border: 1px solid var(--desc-color);
-  }
-
-  .header__theme-menu-button:focus-visible {
-    border-bottom: 1px solid var(--desc-color);
-  }
 }
 
-:root.theme-light {
-  /* сохраните этот селектор в приведённом виде.
+
+  .theme-light .page {
+    /* Вам также нужно будет написать ряд подобных селекторов */
+  }
+
+
+
+  :root.theme-light {
+    /* сохраните этот селектор в приведённом виде.
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
   */
-  --bg-image: url("../images/cover-image-light.png");
-  --main-color: #fff1f7;
-  --accent-color: #ff8dcb;
-  --desc-color: #353430;
-  --button-hover: #32312d66;
-  --main-title-color: #ffc2e6;
-}
 
-.theme-light .page {
-  /* Вам также нужно будет написать ряд подобных селекторов */
-}
+    --bg-image: url("../images/cover-image-light.png");
+    --main-color: #fff1f7;
+    --accent-color: #ff8dcb;
+    --desc-color: #353430;
+    --button-hover: #32312d66;
+    --main-title-color: #ffc2e6;
+    --button-color: var(--desc-color);
+    --button-color-active: var(--desc-color);
+    --button-color-focus: var(--desc-color);
+    --decorated-color: var(--desc-color);
+    --header-desc-color: var(--desc-color);
+    --td-color: var(--desc-color);
+    --title-color-decor: var(--desc-color);
+  }
 
-.theme-light .rec-label {
-  display: none;
-}
+  .theme-light .page {
+    /* Вам также нужно будет написать ряд подобных селекторов */
+  }
 
-.theme-light .rec-label::after {
-  display: none;
-}
+  .theme-light .rec-label {
+    display: none;
+  }
 
-.theme-light .decorated-zone::before {
-  border-left: 1px solid var(--desc-color);
-  border-bottom: 1px solid var(--desc-color);
-}
+  .theme-light .rec-label::after {
+    display: none;
+  }
 
-.theme-light .decorated-zone::after {
-  border-right: 1px solid var(--desc-color);
-  border-top: 1px solid var(--desc-color);
-}
 
-.theme-light .title-decor {
-  background-color: var(--accent-color);
-  color: var(--desc-color);
-}
-
-.theme-light .title-color-decor {
-  color: var(--desc-color);
-}
-
-.theme-light .header__theme-menu-button {
-  color: var(--desc-color);
-}
-
-.theme-light .header__theme-menu-button_active {
-  border: 1px solid var(--desc-color);
-}
-
-.theme-light .header__theme-menu-button:focus-visible {
-  border-bottom: 1px solid var(--desc-color);
-}
